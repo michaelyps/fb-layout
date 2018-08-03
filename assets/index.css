@@ -1,0 +1,122 @@
+#top-bar
+{
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    height: 82px;
+    min-width: 980px;
+    position: relative;
+    z-index: 1;
+}
+
+#header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 13px;
+}
+
+#title
+{
+    padding: 10px;
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+#bodys
+{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#seluler-email
+{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#first-name
+{
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+#second-name
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#password
+{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.middle-bar
+{
+    min-height: 550px;
+    background-color: lightblue;
+}
+
+.body1
+{
+    margin-right: 15px;
+    min-height: 326px;
+}
+
+.body2
+{
+    max-width: 500px;
+}
+
+.name
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-kata
+{
+    display: flex;
+    justify-content: space-between
+}
+
+.kata
+{
+    margin-left: 15px;
+}
+
+.sex
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.masuk
+{
+    margin-top: 20px;
+}
+
+.buat-halaman
+{
+    margin-top: 25px;
+}
+
+body
+{
+    margin: 0px;
+}
+
+
+
