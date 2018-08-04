@@ -25,11 +25,11 @@
                             <tr>
                                 <td><input type="email" name="email"></td>
                                 <td><input type="password"></td>
-                                <td><input type="submit" name="submit" value="masuk"></td>
+                                <td><input class="tombol-masuk" type="submit" name="submit" value="masuk"></td>
                             </tr>
                             <tr>
                                 <td></td>
-                                <td><a href="#">Lupa akun?</a></td>
+                                <td><a href="#" class="d">Lupa akun?</a></td>
                             </tr>
                         </table>
                     </form>
@@ -57,18 +57,40 @@
                     </div>
                     <h4>Tanggal Lahir</h4>
                     <div class="date-kata">
-                        <input type="date" name="date" id="date">
+                        <select name="birthday-day" id="day">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select name="birthday-month" id="month">
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                        </select>
+                        <select name="birthday-year" id="year">
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                        </select>
                         <div class="kata">
-                                <span>Mengapa saya harus memberikan tanggal lahir saya?</span>
+                                <div class="mengapa-saya">
+                                    <a href="#" class="c">Mengapa saya harus memberikan tanggal lahir saya?</a>
+                                </div>
                         </div>
                     </div>
                     <div class="sex">
-                        <input type="radio" name="perempuan" id="perempuan" value="perempuan"> Perempuan
-                        <input type="radio" name="laki2" id="laki2"> Laki-laki
+                        <input type="radio" name="radio" id="perempuan" > Perempuan
+                        <input type="radio" name="radio" id="laki2"> Laki-laki
                     </div>
-                    <span>
-                        Dengan mengklik Daftar, Anda menyetujui <a href="#">Ketentuan</a>,<a href="#">Kebijakan Data</a> dan <a href="#">Kebijakan Cookie</a> kami. Anda akan menerima Notifikasi SMS dari Facebook dan dapat menolaknya kapan saja.
-                    </span>
+                    <div class="dengan-mengklik">
+                        Dengan mengklik Daftar, Anda menyetujui <a href="#" class="b">Ketentuan</a>,<a href="#" class="b"> Kebijakan Data</a> dan <a href="#" class="b">Kebijakan Cookie</a> kami. Anda akan menerima Notifikasi SMS dari Facebook dan dapat menolaknya kapan saja.
+                    </div>
                     <div class="masuk">
                         <input type="submit" name="submit" id="submit" value="DAFTAR">
                     </div>
@@ -80,20 +102,50 @@
         </div>
         <div class="footer">
             <div class="footer-result">
-                <div class="bahasa">
-                    <ul>
-                        <li>Bahasa Indonesia</li>
-                        <li>English (UK)</li>
-                        <li>Bahasa Jawa</li>
-                        <li>Bahasa Melayu</li>
-                        <li>日本語</li>
-                        <li>العربية</li>
-                        <li>Français (France)</li>
-                        <li>Español</li>
-                        <li>한국어</li>
-                        <li>Português (Brasil)</li>
-                        <li>Deutsch</li>
-                    </ul>
+                <div class="list-bahasa">
+                    <div class="bahasa">
+                        <a href="#" class="a">Bahasa Indonesia</a>
+                        <a href="#" class="a">Bahasa Jawa</a>
+                        <a href="#" class="a">Bahasa Melayu</a>
+                        <a href="#" class="a">日本語</a>
+                        <a href="#" class="a">العربية</a>
+                        <a href="#" class="a">Français (France)</a>
+                        <a href="#" class="a">Español</a>
+                        <a href="#" class="a">한국어</a>
+                        <a href="#" class="a">Português (Brasil)</a>
+                        <a href="#" class="a">Deutsch</a>
+                    </div>
+                </div>
+                <div class="help">
+                    <a href="#" class="a">Daftar</a>
+                    <a href="#" class="a">Masuk</a>
+                    <a href="#" class="a">Massenger</a>
+                    <a href="#" class="a">Facebook Lite</a>
+                    <a href="#" class="a">Seluler</a>
+                    <a href="#" class="a">Cari orang</a>
+                    <a href="#" class="a">Teman</a>
+                    <a href="#" class="a">Halaman</a>
+                    <a href="#" class="a">Minat Video</a>
+                    <a href="#" class="a">Tempat</a>
+                    <a href="#" class="a">Game</a>
+                    <a href="#" class="a">Lokasi</a>
+                    <a href="#" class="a">Marketplace</a>
+                    <a href="#" class="a">Grup</a>
+                    <a href="#" class="a">Instagram</a>
+                    <a href="#" class="a">Lokal</a>
+                    <a href="#" class="a">Tentang</a>
+                    <a href="#" class="a">Buat Iklan</a>
+                    <a href="#" class="a">Buat Halaman</a>
+                    <a href="#" class="a">Pengembang</a>
+                    <a href="#" class="a">Karier</a>
+                    <a href="#" class="a">Privasi</a>
+                    <a href="#" class="a">Cookie</a>
+                    <a href="#" class="a">Pilihan Iklan</a>
+                    <a href="#" class="a">Ketentuan</a>
+                    <a href="#" class="a">Bantuan</a>
+                </div>
+                <div class="copyright">
+                    <span>Facebook © 2018</span>
                 </div>
             </div>
         </div>

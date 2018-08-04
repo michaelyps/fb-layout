@@ -4,7 +4,7 @@
     background-image: linear-gradient(#4e69a2, #3b5998 50%);
     border-bottom: 1px solid #133783;
     height: 82px;
-    min-width: 980px;
+    /* min-width: 980px; */
     position: relative;
     z-index: 1;
 }
@@ -40,33 +40,146 @@
 {
     width: 100%;
     box-sizing: border-box;
-    margin-top: 10px;
+    border: 1px solid #bdc7d8;
+    background-color: #fff;
+    position: relative;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 18px;
+    padding: 8px 10px;
 }
 
 #first-name
 {
     width: 100%;
-    box-sizing: border-box;
-    margin-right: 10px;
+    border: 1px solid #bdc7d8;
+    background-color: #fff;
+    position: relative;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 18px;
+    padding: 8px 10px;
+    margin-right: 6px;
 }
 
 #second-name
 {
     width: 100%;
-    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    background-color: #fff;
+    position: relative;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 18px;
+    padding: 8px 10px;
 }
 
 #password
 {
     width: 100%;
     box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    background-color: #fff;
+    position: relative;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 18px;
+    padding: 8px 10px;
     margin-top: 10px;
+}
+
+#day {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #bdc7d8;
+    overflow: visible !important;
+    background-color: rgb(248, 248, 248);
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    cursor: default;
+    border-radius: 5px;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+#month {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #bdc7d8;
+    background-color: rgb(248, 248, 248);
+    overflow: visible !important;
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    cursor: default;
+    border-radius: 5px;
+}
+
+#year {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #bdc7d8;
+    background-color: rgb(248, 248, 248);
+    overflow: visible !important;
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    cursor: default;
+    border-radius: 5px;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+    -webkit-writing-mode: horizontal-tb !important;
+
+}
+.login {
+    font-size: 80%;
+    color: white;
+}
+
+.d {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .middle-bar
 {
     min-height: 550px;
-    background-color: lightblue;
+    min-width: 980px;
+    background: linear-gradient(white, #d3d8e8)
 }
 
 .body1
@@ -84,6 +197,9 @@
 {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .date-kata
@@ -105,12 +221,115 @@
 
 .masuk
 {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .buat-halaman
 {
     margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer
+{
+    /* min-width: 980px; */
+}
+
+.footer-result
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    margin-top: 15px;
+}
+
+.list-bahasa
+{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.a
+{
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.copyright
+{
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.dengan-mengklik
+{
+    font-size: 80%;
+}
+
+.b
+{
+    text-decoration: none;
+}
+
+.mengapa-saya
+{
+    font-size: 80%;
+}
+
+.c {
+    text-decoration: none;
+}
+
+.tombol-masuk {
+    border: 0;
+	color: #4b4f56;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	background-color: #4267b2;
+	border-color: #29487d;
+	color: #fff;
+	border-radius: 2px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 2px 6px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+#submit {
+    font-size: 19px;
+    font-weight: bold !important;
+    line-height: 126%;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 body
