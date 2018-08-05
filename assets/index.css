@@ -172,6 +172,7 @@
 .d {
     text-decoration: none;
     color: whitesmoke;
+    font-family: sans-serif;
 }
 
 .middle-bar
@@ -227,6 +228,7 @@
 {
     margin-top: 25px;
     margin-bottom: 25px;
+    font-family: sans-serif;
 }
 
 .footer-result
@@ -262,7 +264,8 @@
 
 .dengan-mengklik
 {
-    font-size: 80%;
+    font-size: 70%;
+    font-family: sans-serif;
 }
 
 .b
@@ -277,6 +280,8 @@
 
 .c {
     text-decoration: none;
+    font-family: sans-serif;
+    font-size: 80%;
 }
 
 .tombol-masuk {
